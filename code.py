@@ -42,13 +42,6 @@ a=""
 #bot
 user_response=""
 robo_response=""
-f=open('data.txt','r',errors='ignore')
-raw=f.read()
-raw=raw.lower()
-#nltk.download('punkt')
-#nltk.download('wordnet')
-sent_tokens=nltk.sent_tokenize(raw)
-word_tokens=nltk.word_tokenize(raw)
 botreply=""
 #lemetising
 lemmer = nltk.stem.WordNetLemmatizer()
